@@ -1,0 +1,25 @@
+.welcome-modal-second-para-main-wrapper > p {
+  color: var(--gray-500, #6b7280);
+  text-align: center;
+
+  /* Body/Body M */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.preapare-strategy-modal-image > img {
+  animation: rotation 3s infinite linear;
+
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

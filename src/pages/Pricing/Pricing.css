@@ -1,0 +1,102 @@
+.pricing-pay-now > button {
+  color: var(--white, #fff);
+
+  /* text-sm/font-medium */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  display: flex;
+  width: 208px;
+
+  padding: var(--25, 10px) var(--5, 20px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--2, 8px);
+  border-radius: var(--rounded-lg, 8px);
+  background: linear-gradient(149deg, #88a5ff 25.95%, #4b77ff 75.21%);
+}
+
+.pricing-pay-cancel > button {
+  color: var(--gray-800, #1f2a37);
+
+  /* text-sm/font-medium */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  display: flex;
+  width: 208px;
+
+  padding: var(--25, 10px) var(--5, 20px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--2, 8px);
+
+  border-radius: var(--rounded-lg, 8px);
+  border: 1px solid var(--gray-200, #e5e7eb);
+}
+
+.pricing-card-wrapper > div {
+  gap: 0px !important;
+}
+
+.pricing-card-wrapper > div {
+  gap: 0px !important;
+}
+
+.main-card-border-color {
+  border-radius: var(--rounded-lg, 8px);
+  border: 3px solid #003eff;
+  background: var(--white, #fff);
+
+  /* shadow-lg */
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table-head-heading-euity-cap {
+  color: var(--red-600, #e02424);
+
+  /* text-sm/font-normal */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.pricing-table-head-heading-euity-completed {
+  color: var(--green-500, #0e9f6e);
+
+  /* text-sm/font-normal */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.pricing-table-bottom-table-heading > h4 {
+  color: var(--gray-500, #6b7280);
+
+  /* text-sm/font-normal */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.pricing-table-bottom-table-heading > h4 > span {
+  color: var(--gray-900, #111928);
+
+  /* text-sm/font-semibold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}

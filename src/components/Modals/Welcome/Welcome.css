@@ -1,0 +1,105 @@
+.welcome-modal-main-wrapper {
+  border-radius: 10px;
+  border: 1px solid var(--gray-200, #e5e7eb);
+  padding: 12px;
+}
+
+.welcome-modal-logo-main-wrapper > img {
+  max-width: 223.206px;
+  max-height: 187.059px;
+}
+
+.welcome-modal-heading-main-wrapper > h1 {
+  color: #2e2e2e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 54px */
+}
+.welcome-modal-heading-main-wrapper > h1 > span {
+  color: var(--CTA, #5b7ce2);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.welcome-modal-para-main-wrapper > p {
+  color: #4b5563;
+  text-align: center;
+
+  /* text-xl/font-medium */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+}
+
+.welcome-modal-Strategy-btn > button {
+  display: flex;
+  padding: var(--3, 12px) var(--5, 20px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--2, 8px);
+  align-self: stretch;
+  border-radius: var(--rounded-lg, 8px);
+  background: #5b7ce2;
+  color: var(--white, #fff);
+  /* text-base/font-medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  max-width: 446px;
+  width: 100%;
+}
+
+.welcome-modal-explore-btn > button {
+  max-width: 446px;
+  width: 100%;
+  color: var(--primary-700, #1a56db);
+
+  /* text-base/font-medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  display: flex;
+  padding: var(--3, 12px) var(--5, 20px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--2, 8px);
+  align-self: stretch;
+  border-radius: var(--rounded-lg, 8px);
+  border: 1px solid var(--primary-700, #1a56db);
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+  .welcome-modal-logo-main-wrapper > img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .welcome-modal-heading-main-wrapper > h1 {
+    font-size: 30px;
+  }
+  .welcome-modal-heading-main-wrapper > h1 > span {
+    font-size: 30px;
+  }
+  .welcome-modal-para-main-wrapper > p {
+    font-size: 16px;
+  }
+
+  .welcome-modal-Strategy-btn > button {
+    font-size: 14px;
+  }
+  .welcome-modal-explore-btn > button {
+    font-size: 14px;
+  }
+}

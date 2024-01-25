@@ -1,0 +1,52 @@
+.customer-report-main-wrapper{
+    border-radius: 9px;
+border: 1px solid var(--gray-200, #E5E7EB);
+padding: 8px;
+}
+
+.customer-report-main--tax>h2{
+    color: var(--gray-900, #111928);
+
+/* text-2xl/font-semibold */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 36px */
+}
+
+.cust-report-finance-year >h4{
+    color: var(--gray-900, #111928);
+
+/* text-sm/font-medium */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
+}
+
+
+.cust-report-finance-pan-year >p{
+    color: var(--gray-500, #6B7280);
+
+/* leading-tight/text-sm/font-normal */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 125%; /* 17.5px */
+}
+
+
+.cust-report-finance-download-btn{
+    display: flex;
+width: 204px;
+padding: var(--25, 10px) var(--5, 20px);
+justify-content: center;
+align-items: center;
+gap: var(--2, 8px);
+border-radius: var(--rounded-lg, 8px);
+background: var(--CTA, #5B7CE2);
+color: white;
+}

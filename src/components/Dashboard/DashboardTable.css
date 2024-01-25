@@ -1,0 +1,114 @@
+.mutual-funds-table-heading {
+  color: var(--gray-500, #6b7280);
+
+  /* uppercase/text-xs/font-semibold */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 18px */
+  text-transform: uppercase;
+}
+
+.dashboard-table-person-detail-image {
+  width: 43px;
+  height: 43px;
+  border-radius: 26.026px;
+  background: var(--gray-200, #e5e7eb);
+}
+
+.dashboard-table-person-detail-name > h3 {
+  color: var(--gray-900, #111928);
+
+  /* text-sm/font-semibold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+}
+
+.dashboard-table-person-detail-value > h4 {
+  color: var(--gray-500, #6b7280);
+
+  /* text-sm/font-normal */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.dashboard-table-dollars-detail-main > h4 {
+  color: var(--green-600, #057a55);
+
+  /* text-sm/font-semibold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+}
+
+.dashboard-table-dollars-detail-secondry > h5 {
+  color: var(--gray-500, #6b7280);
+
+  /* text-sm/font-normal */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.table-detaila-dropdown-first-value > h4 {
+  color: var(--gray-500, #6b7280);
+
+  /* text-sm/font-normal */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  width: 165px;
+  text-align: left;
+}
+
+.table-detaila-dropdown-second-value > h5 {
+  color: var(--gray-900, #111928);
+  text-align: right;
+
+  /* text-sm/font-semibold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+  /* padding: 16px; */
+  width: 165px;
+}
+
+.table-detaila-dropdown-values-wrapper {
+ border-bottom: 1px solid #E5E7EB;
+}
+
+
+.table-dropdown-main-wrapper{
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.dashboard-table-dollars-detail-dropdown > button{
+    display: flex;
+padding: 4px 8px;
+align-items: center;
+border-radius: 9px;
+background: #EAF3FF;
+color: var(----c-primary, #1473E6);
+font-family: "SF Pro Display";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 35px;
+}

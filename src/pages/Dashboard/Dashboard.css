@@ -1,0 +1,301 @@
+.Dashboard-page-main-wrapper {
+  padding: 32px;
+}
+
+
+
+.Dashboard-page-main-heading > h1 {
+  color: var(--black, #000);
+
+  /* text-4xl/font-bold */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+}
+
+.Dashboard-page-main-para > p {
+  color: var(--gray-500, #6b7280);
+
+  /* text-base/font-normal */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.Dashboard-page-main-btn {
+  color: var(--white, #fff);
+
+  /* text-base/font-medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  max-width: 212px;
+  display: flex;
+  padding: var(--3, 12px) var(--5, 20px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--2, 8px);
+  border-radius: var(--rounded-lg, 8px);
+  background: #5b7ce2;
+}
+
+.Dashboard-page-dashboard-main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 39px;
+}
+
+.dashboard-page-greeting-heading > h4 {
+  color: rgba(19, 29, 30, 0.9);
+
+  /* text-sm/font-normal */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.dashboard-page-name-heading > h3 {
+  color: rgba(19, 29, 30, 0.9);
+
+  /* text-xl/font-bold */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+}
+
+.Dashboard-page-greetings-main-wrapper {
+  margin-bottom: 39px;
+}
+
+.Dashboard-page-investments-main-heading > h4 {
+  color: rgba(19, 29, 30, 0.9);
+
+  /* text-xl/font-bold */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+}
+
+.Dashboard-page-investments-main-heading > h4 > span {
+  color: rgba(19, 29, 30, 0.9);
+
+  /* text-xl/font-bold */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+}
+
+.Dashboard-page-investments-main-heading > span > img {
+  width: 22px;
+  height: 22px;
+  margin-left: 8px;
+}
+
+.Dashboard-page-investments-main-wrapper {
+  margin-bottom: 16px;
+}
+
+.Dashboard-page-investments-details-wrapper {
+  padding: 16px;
+}
+
+.Dashboard-page-investments-details-heading > h2 {
+  color: var(--gray-500, #6b7280);
+
+  /* text-xs/font-medium */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 18px */
+}
+
+.Dashboard-page-curreny-details-heading > h2 {
+  color: var(--black, #000);
+
+  /* text-2xl/font-semibold */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+.Dashboard-page-date-details-heading > h2 {
+  color: var(--gray-500, #6b7280);
+  display: flex;
+  /* text-base/font-medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+
+.Dashboard-page-investments-details-heading {
+  margin-bottom: 4px;
+}
+
+.Dashboard-page-curreny-details-heading {
+  margin-bottom: 4px;
+}
+
+.Dashboard-page-investments-details-second-col {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+}
+
+.Dashboard-page-date-details-heading > h2 > span {
+  color: var(--green-500, #0e9f6e);
+
+  /* text-xs/font-semibold */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 18px */
+  border-radius: 8px;
+  background: #d7ffec;
+  display: flex;
+  height: 26px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 6px;
+}
+
+.Dashboard-page-investments-details-wrapper {
+  border-radius: 17px;
+  border: 1px solid var(--gray-200, #e5e7eb);
+  background: #fff;
+  margin-bottom: 39px;
+}
+
+.Dashboard-page-date-portfolio-heading > h4 {
+  color: rgba(19, 29, 30, 0.9);
+
+  /* text-xl/font-bold */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+}
+
+.Dashboard-page-date-mutual-heading > h5 {
+  color: var(--gray-500, #6b7280);
+
+  /* Text md/Normal */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.Dashboard-page-date-portfolio-wrapper {
+  margin-bottom: 16px;
+}
+
+.dash-table-wrap {
+  border-radius: 10px;
+  border: 1px solid var(--gray-200, #e5e7eb);
+  background: var(--white, #fff);
+}
+
+.dashboard-table-holding-warp {
+  border-radius: 9px;
+  background: #eaf3ff;
+  display: flex;
+  padding: 4px 8px;
+  align-items: center;
+  color: var(----c-primary, #1473e6);
+  font-family: "SF Pro Display";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dashoboard-search-for-mobile{
+  display: none;
+}
+
+.dashboard-page-button-main{
+  color: var(--gray-800, #1F2A37);
+
+  /* text-base/font-medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  display: flex;
+padding: var(--3, 12px) var(--5, 20px);
+justify-content: center;
+align-items: center;
+gap: var(--2, 8px);
+border-radius: var(--rounded-lg, 8px);
+border: 1px solid var(--gray-200, #E5E7EB);
+margin-top: 16px; 
+}
+
+
+@media screen and (max-width: 568px) {
+
+  .Dashboard-page-main-wrapper {
+    padding: 32px 20px;
+  }
+  .dashoboard-search-for-mobile{
+    display: block;
+    margin-bottom: 39px;
+  }
+  .Dashboard-page-dashboard-main-wrapper {
+    display: block
+  }
+
+  .Dashboard-page-main-btn {
+    width: 100%;
+    max-width: 100vw;
+    margin-top: 16px;
+  }
+  .Dashboard-page-curreny-details-heading > h2{
+    font-size: 20px;
+  }
+  .Dashboard-page-date-details-heading>h2{
+    font-size: 12px;
+  }
+  .Dashboard-page-date-details-heading > h2 > span {
+    font-size: 12px;
+  }
+  }
+
+  @media (min-width: 568px) and (max-width: 768px) {
+  .Dashboard-page-dashboard-main-wrapper {
+      display: block
+    }
+  
+    .Dashboard-page-main-btn{
+      margin-top: 16px;
+    }
+  
+    
+    }
+

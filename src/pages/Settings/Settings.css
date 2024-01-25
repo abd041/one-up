@@ -1,0 +1,214 @@
+.settings-page-main-container {
+  padding: 32px;
+}
+
+.setting-page-main-heading > h1 {
+  color: var(--black, #000);
+  text-align: center;
+
+  /* text-4xl/font-bold */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+}
+
+.setting-page-main-desc > p {
+  color: var(--gray-500, #6b7280);
+  text-align: center;
+
+  /* text-base/font-normal */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.settings-page-back-btn {
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-200, #e5e7eb);
+}
+
+.setting-page-bread-wrap {
+  display: flex;
+  padding: var(--3, 12px) var(--5, 20px);
+  align-items: center;
+  gap: var(--4, 16px);
+  border-radius: 8px;
+  border: 1px solid var(--gray-200, #e5e7eb);
+  background: var(--gray-50, #f9fafb);
+  margin-left: 8px;
+}
+
+.setting-page-bread-item {
+  color: var(--gray-700, #374151);
+
+  /* text-sm/font-medium */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+}
+
+.setting-page-main-heading-desc {
+  margin-top: 12px;
+  margin-bottom: 56px;
+}
+
+.setting-page-main-card-wrapper {
+  border-radius: 9px;
+  border: 1px solid var(--gray-200, #e5e7eb);
+}
+
+.setting-page-main-card-name-logo > h1 {
+  color: var(--white, #fff);
+  text-align: center;
+
+  /* leading-none/text-base/font-medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+  display: flex;
+  width: 48px;
+  height: 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  border: 1px solid var(--CTA, #5b7ce2);
+  background: #6186fc;
+}
+
+.setting-page-main-card-heading > h1 {
+  color: var(--gray-900, #111928);
+
+  /* text-3xl/font-semibold */
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 45px */
+}
+
+.setting-page-main-card-desc > p {
+  color: var(--gray-500, #6b7280);
+
+  /* text-sm/font-normal */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.setting-page-main-card-border-bottom {
+  border-bottom: 1px solid #d1d5db;
+}
+
+.setting-page-main-card-refer {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.setting-page-main-logo > h1 {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 999px;
+  background: var(--gray-100, #f3f4f6);
+}
+
+.setting-page-refer-heading > h1 {
+  color: var(--gray-900, #111928);
+
+  /* text-lg/font-medium */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+}
+
+.setting-page-refer--desc > p {
+  color: var(--gray-500, #6b7280);
+
+  /* text-sm/font-normal */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.setting-page-refer--btn {
+  display: flex;
+  padding: var(--1, 4px) var(--3, 12px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--1, 4px);
+  border-radius: var(--rounded-md, 6px);
+  background: var(--primary-100, #e1effe);
+  color: var(--primary-800, #1e429f);
+  text-align: center;
+
+  /* text-sm/font-medium */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+}
+
+
+.setting-page-invite--btn{
+    display: flex;
+padding: var(--1, 4px) var(--25, 10px);
+justify-content: center;
+align-items: center;
+gap: var(--2, 8px);
+border-radius: 99px;
+background: var(--green-100, #DEF7EC);
+color: var(--green-800, #03543F);
+text-align: center;
+
+/* text-xs/font-medium */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 18px */
+}
+
+
+.setting-page-account-details-wrapper{
+    margin-top: 56px;
+}
+
+@media screen and (max-width :568px) {
+    .settings-page-main-container {
+        padding: 16px;
+      }
+          
+
+      .setting-page-main-card-wrapper {
+    border: none;
+    }
+
+    .bread-crem-mobile-view{
+        display: none;
+    }
+}

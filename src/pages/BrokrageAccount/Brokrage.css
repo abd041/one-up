@@ -1,0 +1,240 @@
+
+
+.replace-strategy-page-card-details-desc-bold > p {
+  color: #2e2e2e;
+  text-align: center;
+
+  /* text-xl/font-extrabold */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 30px */
+  margin-bottom: 39px;
+}
+.brockage-account-page-first-wrapper {
+  margin: 0;
+  padding: 0;
+}
+.replace-brokrage-page-card-details-desc > p {
+  color: var(--gray-500, #6b7280);
+  text-align: center;
+
+  /* text-base/font-normal */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  margin-bottom: 12px;
+}
+
+.replace-brokrage-page-card-details-heading > h4 {
+  color: #2e2e2e;
+  text-align: center;
+
+  /* text-4xl/font-bold */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+  margin-bottom: 12px;
+}
+
+.brokrage-page-card-row {
+  display: flex;
+  padding: 10px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--3, 12px);
+  align-self: stretch;
+
+  border-radius: 8px;
+  border: 1px solid var(--gray-200, #e5e7eb);
+  background: var(--white, #fff);
+
+  /* shadow */
+  box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.brokrage-page-card-connect-row > h2 {
+  color: var(--gray-900, #111928);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  display: flex;
+  padding: var(--2, 8px) var(--3, 12px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--1, 4px);
+  align-self: stretch;
+  background: var(--gray-50, #f9fafb);
+}
+
+.brokrage-page-search-row-image > img {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+}
+
+.brokrage-page-search-row-heading > h3 {
+  color: var(--gray-800, #1f2a37);
+
+  /* text-base/font-bold */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}
+
+.brokrage-page-search-row-desc > p {
+  color: var(--primary-700, #1a56db);
+
+  /* leading-tight/text-xs/font-normal */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 15px */
+}
+
+.brokrage-page-search-row-main-wrapper {
+  border-bottom: 1px solid var(--gray-200, #e5e7eb);
+}
+
+.connect-portfolio-btn-wrapper {
+  display: flex;
+  padding: var(--35, 14px) var(--6, 24px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--2, 8px);
+  align-self: stretch;
+  border-radius: var(--rounded-lg, 8px);
+  background: #5b7ce2;
+  color: var(--white, #fff);
+
+  /* text-base/font-medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  max-width: 324px;
+  width: 100%; /* 24px */
+}
+
+.connect-portfolio-go-back {
+  display: flex;
+  padding: var(--35, 14px) var(--6, 24px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--2, 8px);
+  align-self: stretch;
+  border-radius: var(--rounded-lg, 8px);
+  border: 1px solid var(--gray-200, #e5e7eb);
+  color: var(--gray-800, #1f2a37);
+
+  /* text-base/font-medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  max-width: 324px;
+  width: 100%;
+}
+
+.connect-portfolio-btn-main-wrapper {
+  margin-top: 39px;
+}
+
+.complete-auth-main-logo > img {
+  width: 108.477px;
+  height: 103.708px;
+  border-radius: 108.477px;
+}
+
+.complete-auth-main-title > h1 {
+  color: #2e2e2e;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 54px */
+}
+
+.complete-auth-main-list > li {
+  color: var(--gray-600, #4B5563);
+
+  /* text-xl/font-medium */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+}
+
+
+.add-new-brokarge-replace-btn-create > button {
+  display: flex;
+  padding: var(--3, 12px) var(--5, 20px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--2, 8px);
+  align-self: stretch;
+  border-radius: var(--rounded-lg, 8px);
+  background: #5b7ce2;
+  color: var(--white, #fff);
+
+  /* text-base/font-medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+
+@media screen and (max-width: 568px) {
+  .replace-brokrage-page-card-details-desc {
+    display: none;
+  }
+  .replace-strategy-page-card-details-desc-bold {
+    display: none;
+  }
+  .brockage-account-page-first-wrapper {
+    margin: 0;
+    padding: 24px;
+  }
+
+  .complete-auth-main-title > h1 {
+    color: #2E2E2E;
+    text-align: center;
+    
+    /* text-2xl/font-bold */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+    letter-spacing: -0.24px;
+  }
+
+  .complete-auth-main-list > li {
+    color: var(--gray-600, #4B5563);
+
+    /* text-sm/font-normal */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+  }
+  
+}

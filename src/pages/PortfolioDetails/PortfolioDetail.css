@@ -1,0 +1,62 @@
+.portfolio-detail-gs-alpha > img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    padding: 8.182px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.818px;
+    border-radius: 5.455px;
+border: 1.023px solid rgba(0, 0, 0, 0.06);
+background: #FFF;
+}
+
+
+.replace-strategy-page-card-main-investment-values > h5{
+    color: var(--text, #131D1E);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.portfoili-detail-invest-btn>button{
+    display: flex;
+width: 100%;
+padding: var(--3, 12px) var(--5, 20px);
+justify-content: center;
+align-items: center;
+gap: var(--2, 8px);
+border-radius: var(--rounded-lg, 8px);
+background: #5B7CE2;
+color: var(--white, #FFF);
+
+/* text-base/font-medium */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+}
+
+
+.portfoili-detail-connect-other-btn{
+    display: flex;
+padding: var(--3, 12px) var(--5, 20px);
+justify-content: center;
+align-items: center;
+gap: var(--2, 8px);
+border-radius: var(--rounded-lg, 8px);
+border: 1px solid var(--primary-700, #1A56DB);
+color: var(--primary-700, #1A56DB);
+
+/* text-base/font-medium */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+width: 100%;
+}

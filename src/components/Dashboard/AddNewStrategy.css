@@ -1,0 +1,109 @@
+.add-new-strategy-main-modal > h1 {
+  color: #2e2e2e;
+
+  /* text-2xl/font-extrabold */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%; /* 36px */
+}
+
+.add-strategy-modal-main-wrapper {
+  margin-bottom: 32px;
+}
+.add-new-strategy-main-heading-wrapper {
+  margin-bottom: 39px;
+}
+
+.add-new-strategy-replace-btn {
+  margin-bottom: 12px;
+}
+.add-new-strategy-replace-btn > button > span > img {
+  margin-right: 12px;
+}
+.add-new-strategy-replace-btn > button > span {
+  color: var(--gray-700, #374151);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.add-new-strategy-replace-btn > button {
+  display: flex;
+  justify-content: space-between;
+  height: 54.833px;
+  padding: 24px;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+
+  border-radius: var(--rounded-md, 6px);
+  border: 1.5px solid var(--gray-200, #e5e7eb);
+  background: #fff;
+}
+
+.add-new-strategy-replace-btn > button:hover {
+  border-radius: var(--rounded-md, 6px);
+  border: 2px solid var(--CTA, #5b7ce2);
+  background: #fff;
+}
+
+.add-new-strategy-replace-btn-create {
+  margin-top: 27px;
+}
+
+.add-new-strategy-replace-btn-create > button {
+  display: flex;
+  padding: var(--3, 12px) var(--5, 20px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--2, 8px);
+  align-self: stretch;
+  border-radius: var(--rounded-lg, 8px);
+  background: #5b7ce2;
+  color: var(--white, #fff);
+
+  /* text-base/font-medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+}
+
+.add-new-strategy-amout-available-wrapper {
+  display: flex;
+  padding: 8px 12px;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.add-new-strategy-amout-available > h4 {
+  color: rgba(39, 5, 5, 0.73);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.add-new-strategy-amout-available-exact > h4 {
+  color: #131d1e;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+
+.add-new-strategy-replace-btn > button:hover {
+  border-radius: var(--rounded-md, 6px);
+  border: 2px solid var(--CTA, #5b7ce2);
+  background: #fff;
+}

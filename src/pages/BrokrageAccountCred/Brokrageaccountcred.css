@@ -1,0 +1,25 @@
+.secure-page-card-connect-row >p{
+    color: var(--gray-500, #6B7280);
+text-align: center;
+
+/* text-sm/font-medium */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
+}
+
+.secure-page-card-connect-row >p >span{
+    color: var(--CTA, #5B7CE2);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+}
+
+
+.strategy-insight-main-connect-btn{
+    margin-top: 44px;
+}

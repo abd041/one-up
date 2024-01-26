@@ -141,24 +141,6 @@ const AccountDetails = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 mb-3">
-            <div className="login-email-label">
-              <Label htmlFor="email1" value="Payment Security Partner" />
-            </div>
-            <div class="relative">
-              
-                <input
-                  type={"text" }
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  id="search"
-                  class="block w-full px-4 py-2 ps-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="snaptrade"
-                  required
-                />
-        
-            </div>
-          </div>
         </div>
       </div>
     </div>

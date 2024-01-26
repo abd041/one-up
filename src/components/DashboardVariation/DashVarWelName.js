@@ -12,7 +12,7 @@ const DashVarWelName = () => {
             <h3>Mr Ciprian Lopata</h3>
         </div>
     </div>
-    <div className='col-6 md:flex justify-end hidden'>
+    {/* <div className='col-6 md:flex justify-end hidden'>
     <div className='col-7 new-wel-name-bal-wrap flex justify-between items-center'>
         <div>
             <div className='new-wel-name-bal-heading'><h3>Balance available for stocks</h3></div>
@@ -22,7 +22,7 @@ const DashVarWelName = () => {
             <button className='new-wel-name-add-btn-fund'>{BlueAdd()} ADD FUNDS</button>
         </div>
     </div>
-    </div>
+    </div> */}
   
 </div>
   )

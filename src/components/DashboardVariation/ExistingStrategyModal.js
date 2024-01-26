@@ -49,14 +49,14 @@ const ExistingStrategyModal = ({ openModal, setOpenModal }) => {
         </div>
         <DashboardTable/>
               </div>
-              <div className="flex justify-between add-new-strategy-amout-available-wrapper">
+              {/* <div className="flex justify-between add-new-strategy-amout-available-wrapper">
                 <div className="add-new-strategy-amout-available">
                   <h4>Balance available to Invest</h4>
                 </div>
                 <div className="add-new-strategy-amout-available-exact">
                   <h4>$ 14,700.00</h4>
                 </div>
-              </div>
+              </div> */}
             </Modal.Body>
           </animated.div>
         </Modal>

@@ -31,25 +31,20 @@ function StrategyTable({ loadMore }) {
     <div className="overflow-x-auto">
       <Table className="w-full">
         <Table.Head>
-          <Table.HeadCell style={{ width: "5.64%" }} className="p-4 bg-blue-50">
-            <div className="investor-table-head-heading">
-              <h1>Sr no</h1>
-            </div>
-          </Table.HeadCell>
           <Table.HeadCell
-            style={{ width: "47.18%" }}
-            className="p-4 bg-blue-50"
-          >
-            <div className="investor-table-head-heading">
-              <h1>TRANSACTION</h1>
-            </div>
-          </Table.HeadCell>
-          <Table.HeadCell
-            style={{ width: "47.18%" }}
+            style={{ width: "50%" }}
             className="p-4 bg-blue-50"
           >
             <div className="investor-table-head-heading">
               <h1>Ticker</h1>
+            </div>
+          </Table.HeadCell>
+          <Table.HeadCell
+            style={{ width: "50%" }}
+            className="p-4 bg-blue-50"
+          >
+            <div className="investor-table-head-heading">
+              <h1>Weight</h1>
             </div>
           </Table.HeadCell>
         </Table.Head>
@@ -64,7 +59,6 @@ function StrategyTable({ loadMore }) {
                   : "bg-white"
               }
             >
-              <Table.Cell className="p-4">{item.id}</Table.Cell>
               <Table.Cell className="dashboard-table-person-detail p-4 flex items-center">
                 <div className="dashboard-table-person-detail-image mr-2"></div>
                 <div className="dashboard-table-person-detail-wrapper">

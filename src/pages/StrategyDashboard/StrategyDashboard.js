@@ -38,7 +38,7 @@ const StrategyDashboard = () => {
             </div>
       </div>
     
-    <div className='col-6 md:flex justify-end hidden'>
+    {/* <div className='col-6 md:flex justify-end hidden'>
     <div className='col-7 new-wel-name-bal-wrap flex justify-between items-center'>
         <div>
             <div className='new-wel-name-bal-heading'><h3>Balance available for stocks</h3></div>
@@ -48,7 +48,7 @@ const StrategyDashboard = () => {
             <button className='new-wel-name-add-btn-fund'>{BlueAdd()} ADD FUNDS</button>
         </div>
     </div>
-    </div>
+    </div> */}
     </div>
       <div className="row">
         <div className="col-12 startegy-dashboard-main-wrapper">
@@ -82,14 +82,10 @@ const StrategyDashboard = () => {
                 <div className="col-12 flex items-center mb-5">
                   <div className="md:col-6 col-0 strategy-dashboard-page-strategy-details">
                     <h4 className="md:flex hidden  items-center text-center">
-                      <span className="mr-2 flex flex-col justify-center">
-                        <h1>S&P</h1>
-                        <h2>500</h2>
-                      </span>{" "}
                       GS ALPAH VALUE
                     </h4>
                   </div>
-                  <div className="md:col-6 col-12 flex md:justify-end justify-center">
+                  {/* <div className="md:col-6 col-12 flex md:justify-end justify-center">
                     <div className="strategy-chart-upper-button">
                       <button className="strategy-chart-upper-button-not-active">
                         1d
@@ -113,7 +109,7 @@ const StrategyDashboard = () => {
                         1M
                       </button>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="col-12 flex items-center mb-2">
                   <div className="strategy-dashbioard-show-main-value mr-2">

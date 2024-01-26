@@ -126,7 +126,7 @@ const Settings = () => {
 
                         </div>
                     </div>
-                    <div className="col-12 flex justify-between items-center pt-6">
+                    {/* <div className="col-12 flex justify-between items-center pt-6">
                         <div
                             className="flex items-center "
                         >
@@ -143,7 +143,7 @@ const Settings = () => {
                             </Link>
 
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

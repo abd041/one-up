@@ -68,12 +68,12 @@ const SustainInvest = ({setShowComponents ,setProgressResult}) => {
             </p>
           </div>
         </div>
-        <div className="col-12">
+        <div className="col-12 mb-2">
             <div className="Sustian-invest-footprint-heading">
                 <h1>1. Footprint</h1>
             </div>
         </div>
-        <div className="col-12 Sustian-invest-footprint-para">
+        <div className="col-12 Sustian-invest-footprint-para mb-2">
             <div className="Sustian-invest-footprint-heading">
                 <p>Select the most relevant fields to support companies that do business sustainably.</p>
             </div>

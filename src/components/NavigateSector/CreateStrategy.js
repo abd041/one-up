@@ -125,7 +125,7 @@ const CreateStrategy = ({ setShowComponents, setProgressResult }) => {
         </div>
 
         <div className="col-12 md:flex block create-strategy-first-column">
-          <div className="md:col-3 sm:col-8 col-12 mx-auto flex justify-center Sustian-invest-footprint-para">
+          <div className="md:col-4 sm:col-8 col-12 mx-auto flex justify-center Sustian-invest-footprint-para">
             <CreateStrategyInput
               footPrintBtn={footPrintBtn3}
               handlefootPrintBtn={handlefootPrintBtn3}
@@ -134,7 +134,7 @@ const CreateStrategy = ({ setShowComponents, setProgressResult }) => {
               content="Seek undervalued stocks for high return potential."
             />
           </div>
-          <div className="md:col-3 sm:col-8 col-12 mx-auto flex justify-center Sustian-invest-footprint-para">
+          <div className="md:col-4 sm:col-8 col-12 mx-auto flex justify-center Sustian-invest-footprint-para">
             <CreateStrategyInput
               footPrintBtn={footPrintBtn4}
               handlefootPrintBtn={handlefootPrintBtn4}
@@ -143,16 +143,7 @@ const CreateStrategy = ({ setShowComponents, setProgressResult }) => {
               content="Seek growth"
             />
           </div>
-          <div className="md:col-3 sm:col-8 col-12 mx-auto flex justify-center Sustian-invest-footprint-para">
-            <CreateStrategyInput
-              footPrintBtn={footPrintBtn5}
-              handlefootPrintBtn={handlefootPrintBtn5}
-              title="Dividend"
-              success={CheckIcon}
-              content="Dividend"
-            />
-          </div>
-          <div className="md:col-3 sm:col-8 col-12 mx-auto flex justify-center Sustian-invest-footprint-para">
+          <div className="md:col-4 sm:col-8 col-12 mx-auto flex justify-center Sustian-invest-footprint-para">
             <CreateStrategyInput
               footPrintBtn={footPrintBtn6}
               handlefootPrintBtn={handlefootPrintBtn6}

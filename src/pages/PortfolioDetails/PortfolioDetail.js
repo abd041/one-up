@@ -11,7 +11,7 @@ const PortfolioDetail = ({}) => {
   return (
     <div className="row mx-0">
       <div className="md:col-8 col-12 replace-strategy-page-card-main-wrapper mx-auto">
-        <div className="md:col-10 replace-strategy-page-card-secondry-wrapper">
+        <div className="md:col-10 col-11 replace-strategy-page-card-secondry-wrapper">
           <div className="replace-strategy-page-card-details-heading">
             <h4>Select a Portfolio</h4>
           </div>
@@ -21,7 +21,7 @@ const PortfolioDetail = ({}) => {
             </p>
           </div>
         </div>
-        <div className="md:col-7 sm:col-10 col-12 replace-strategy-page-ticker-heading-wrapper">
+        <div className="md:col-7 sm:col-10 col-11 replace-strategy-page-ticker-heading-wrapper">
           <div className="replace-strategy-page-ticker-heading mb-2">
             <h4>Select mutual fund ticker</h4>
           </div>
@@ -39,7 +39,7 @@ const PortfolioDetail = ({}) => {
           </div>
           <div></div>
         </div>
-        <div className="md:col-7 sm:col-10 col-12">
+        <div className="md:col-7 sm:col-10 col-11">
           <div className="replace-strategy-page-scale-investment">
             <h5>Select your Portfolio</h5>
           </div>

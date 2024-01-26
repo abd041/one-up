@@ -52,12 +52,12 @@ const SustainExclusion = () => {
   return (
     <div>
       {" "}
-      <div className="col-12">
+      <div className="col-12 mb-2">
         <div className="Sustian-invest-footprint-heading">
           <h1>2. Exclusions</h1>
         </div>
       </div>
-      <div className="col-12 Sustian-invest-footprint-para">
+      <div className="col-12 Sustian-invest-footprint-para mb-2">
         <div className="Sustian-invest-footprint-heading">
           <p>
             Exclude entire areas of business that don’t align with your values.

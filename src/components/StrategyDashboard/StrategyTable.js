@@ -8,10 +8,12 @@ import { NavigatorTableData } from "../NavigateSector/NavigatorTableData";
 import Input from "../../assests/Input.png";
 import eclipse20 from "../../assests/Ellipse 20.svg";
 import { TableData } from "./TableData";
+import StrategySpecModal from "../Modals/StrategySpec/StrategySpecModal";
 
 function StrategyTable({ loadMore }) {
   const [selectedRows, setSelectedRows] = useState([]);
   const [displayedRows, setDisplayedRows] = useState(5);
+  const [ openModal, setOpenModal]=useState(false)
 
   const handleRowSelect = (rowId) => {
     setSelectedRows((prevSelectedRows) => {
@@ -55,9 +57,10 @@ function StrategyTable({ loadMore }) {
               key={item.id}
               className={
                 selectedRows.includes(item.id)
-                  ? "investor-row-selected-background-color"
-                  : "bg-white"
+                  ? "investor-row-selected-background-color cursor-pointer"
+                  : "bg-white cursor-pointer"
               }
+              onClick={()=> setOpenModal(true)}
             >
               <Table.Cell className="dashboard-table-person-detail p-4 flex items-center">
                 <div className="dashboard-table-person-detail-image mr-2"></div>
@@ -88,6 +91,7 @@ function StrategyTable({ loadMore }) {
             </button>
           </div>
         )}
+        <StrategySpecModal setOpenModal={setOpenModal} openModal={openModal}/>
     </div>
   );
 }

@@ -208,28 +208,212 @@
   line-height: 150%; /* 21px */
 }
 
-.stragtgy-dashboard-funds-wrap{
+.stragtgy-dashboard-funds-wrap {
   margin-bottom: 39px;
 }
 
-.strategy-insight-page-strategy-details-btn-white{
+.strategy-insight-page-strategy-details-btn-white {
   display: flex;
-padding: var(--2, 8px) var(--3, 12px);
-justify-content: center;
-align-items: center;
-gap: var(--15, 6px);
-border-radius: 5px;
-border: 1px solid var(--gray-200, #E5E7EB);
-color: var(--gray-500, #6B7280);
+  padding: var(--2, 8px) var(--3, 12px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--15, 6px);
+  border-radius: 5px;
+  border: 1px solid var(--gray-200, #e5e7eb);
+  color: var(--gray-500, #6b7280);
 
-/* text-sm/font-medium */
+  /* text-sm/font-medium */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+}
+
+.stragtrgy-dashborad-forst-row {
+  margin-bottom: 39px;
+}
+
+.stragy-spec-modal-image {
+  width: 43px;
+  height: 43px;
+  border-radius: 26.026px;
+  background: var(--gray-200, #e5e7eb);
+  margin-right: 8px;
+}
+
+.stragy-spec-modal-heading > h1 {
+  color: var(--gray-900, #111928);
+
+  /* text-sm/font-semibold */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+}
+
+.stragy-spec-modal-desc > p {
+  color: var(--gray-500, #6b7280);
+
+  /* text-sm/font-normal */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.stragtgy-spec-balance-desc-warpper > button {
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 9px;
+  background: var(--green-50, #f3faf7);
+  color: var(--green-500, #0e9f6e);
+
+  /* text-base/font-semibold */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+
+.stragtgy-spec-balance-desc-warpper {
+  margin-bottom: 24px;
+}
+
+.stragy-spec-desc-wrapper {
+  margin-bottom: 24px;
+}
+
+.stragy-spec-desc-head > h4 {
+  color: var(--gray-700, #374151);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+}
+
+.stragy-spec-desc-para > p {
+  color: var(--gray-500, #6b7280);
+
+  /* text-xs/font-medium */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 18px */
+}
+
+.stragy-spec-desc-para > p > span {
+  color: var(--gray-900, #111928);
+
+  /* text-xs/font-medium */
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.stratgy-table-main {
+  border-radius: 10px;
+  border: 1px solid var(--gray-200, #e5e7eb);
+  background: var(--white, #fff);
+}
+
+
+.strategy-table-heading-main >h4{
+  color: var(--gray-900, #111928);
+
+/* text-sm/font-semibold */
 font-family: Inter;
 font-size: 14px;
 font-style: normal;
-font-weight: 500;
+font-weight: 600;
 line-height: 150%; /* 21px */
 }
 
-.stragtrgy-dashborad-forst-row{
-  margin-bottom: 39px;
+
+.strategy-table-desc-main > h4{
+  color: var(--gray-500, #6B7280);
+
+/* text-sm/font-normal */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+}
+
+
+.strategy-table-main-row-wrapper{
+border-bottom: 1px solid  #e5e7eb;
+
+}
+
+
+.strategy-spec-bottom-btn{
+  border-radius: var(--rounded-md, 9px);
+background: var(--gray-100, #F3F4F6);
+color: var(--gray-900, #111928);
+text-align: center;
+
+/* text-xs/font-medium */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 18px */
+padding: var(--05, 2px) var(--25, 10px);
+}
+
+
+.strategy-spec-bottom-blue-btn{
+  color: var(--blue-600, #1C64F2);
+text-align: center;
+
+/* text-xs/font-medium */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 18px */
+padding: var(--05, 2px) var(--25, 10px);
+}
+
+.appl-heading{
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width : 768px) {
+  .strategy-modal-body-main{
+    max-height: 90vh;
+    overflow-y: scroll;
+  }
+  .appl-heading{
+    margin-bottom: 12px;
+  }
+  
+  .stragtgy-spec-balance-desc-warpper {
+    margin-bottom: 12px;
+  }
+  
+  .stragy-spec-desc-wrapper {
+    margin-bottom: 12px;
+  }
+
+  .welcome-modal-main-wrapper{
+  padding: 6px;
+  }
+
+  .stratgy-table-main{
+    border: none;
+    border-radius: 0;
+  }
 }

@@ -186,7 +186,21 @@ const StrategyDashboard = () => {
           </Link>
         </div>
       </div>
-      <AddAmountModal openModal={openModal} setOpenModal={setOpenModal}/>
+      {openModal && (
+        <PrepareStrategy
+          openModal={openModal}
+          setOpenModal={setOpenModal}
+          logo={spiner_light}
+          main="Wait...Connecting to your brokerage account"
+          desc="Configuring....Do not press back or refresh this page"
+          descsecond="You will be directed to your strategy"
+          sustainInvest={false}
+          brockConnect={false}
+          secureAccountTrue={false}
+          connectAccount={true}
+        />
+      )}
+      {/* <AddAmountModal openModal={openModal} setOpenModal={setOpenModal}/> */}
     </div>
   );
 };

@@ -5,7 +5,7 @@ import { InfoIcon, Cheveron } from "../../assests/svgs/password";
 import StrategyInsightRow from "../../components/StrategyInsight/StrategyInsightRow";
 import Rightarrow from "../../assests/arrow-right.png";
 import Leftarrow from "../../assests/arrow-left.svg";
-import spiner_light from "../../assests/spiner_light.svg"
+import spiner_light from "../../assests/spiner_light.svg";
 import PrepareStrategy from "../../components/Modals/PrepareStrategy/PrepareStrategy";
 import { Link } from "react-router-dom";
 const StrategyInsight = () => {
@@ -86,9 +86,7 @@ const StrategyInsight = () => {
             <div className="col-12 md:flex block insight-card-wrapper-dvider"></div>
             <div className="col-12 flex items-center">
               <div className="col-6 insight-card-wrapper-key-title">
-                <h4 className="flex items-center">
-                  Key Details
-                </h4>
+                <h4 className="flex items-center">Key Details</h4>
               </div>
               <div className="col-6 flex justify-end">
                 <button className="insight-card-wrapper-key-btn">
@@ -101,41 +99,45 @@ const StrategyInsight = () => {
             <StrategyInsightRow title="1-year performance" desc="12.32%" />
             <StrategyInsightRow title="Risk" desc="Concentrated" />
             <StrategyInsightRow title="Style" desc="Value" />
-            <button className="strategy-insight-main-wrapper-btn" onClick={() => setOpenModal(true)}>
+            <button
+              className="strategy-insight-main-wrapper-btn"
+              onClick={() => setOpenModal(true)}
+            >
               Replicate Strategy <img src={Rightarrow}></img>
             </button>
           </div>
-
         </div>
       </div>
       <div className="md:col-8 col-12 md:flex hidden justify-center mx-auto">
         <button className="replace-strategy-go-back">
           <img src={Leftarrow}></img>Go Back
         </button>
-        <Link to="/portfolio-detail" className="replace-strategy-contine-btn">
+        <Link to="/strategy-dashboard" className="replace-strategy-contine-btn">
           View details <img src={Rightarrow}></img>
         </Link>
       </div>
       <div className="md:col-8 col-12 md:hidden block justify-center mx-auto">
-        <Link to="/portfolio-detail" className="replace-strategy-contine-btn">
+        <Link to="/strategy-dashboard" className="replace-strategy-contine-btn">
           View details <img src={Rightarrow}></img>
         </Link>
         <button className="replace-strategy-go-back">
           <img src={Leftarrow}></img>Go Back
         </button>
       </div>
-      {openModal && <PrepareStrategy
-        openModal={openModal}
-        setOpenModal={setOpenModal}
-        logo={spiner_light}
-        main="Wait...Connecting to your brokerage account"
-        desc="Configuring....Do not press back or refresh this page"
-        descsecond="You will be directed to your strategy"
-        sustainInvest={false}
-        brockConnect={false}
-        secureAccountTrue={false}
-        connectAccount={true}
-      />}
+      {openModal && (
+        <PrepareStrategy
+          openModal={openModal}
+          setOpenModal={setOpenModal}
+          logo={spiner_light}
+          main="Wait...Connecting to your brokerage account"
+          desc="Configuring....Do not press back or refresh this page"
+          descsecond="You will be directed to your strategy"
+          sustainInvest={false}
+          brockConnect={false}
+          secureAccountTrue={false}
+          connectAccount={true}
+        />
+      )}
     </div>
   );
 };
